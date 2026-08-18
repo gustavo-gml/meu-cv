@@ -31,7 +31,7 @@ Você pode visualizar o projeto rodando diretamente no navegador através do Git
 **Para rodar localmente:**
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/gustavo-gml/meu-cv.git](https://github.com/gustavo-gml/meu-cv.git)
+   git clone https://github.com/gustavo-gml/meu-cv.git
 
 
 👨‍💻 Autor
