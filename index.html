@@ -4,17 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gustavo Martins</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <aside class="sidebar">
         <header>
-            <!-- Lembrete: adicionar uma foto futuramente -->
+            <img src="images/perfil.png" alt="Foto de Gustavo Martins" class="profile-pic">
             <h1>Gustavo Martins</h1>
             <p>Bolsista de Pesquisa e Inovação</p>
         </header>
+
+        <!--Informações Pessoais -->
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> gustavomartinslima06@gmail.com</p>
+            <p><strong>Telefone:</strong> (35) 99850-5596</p>
+            <p><strong>Local:</strong> Divisa Nova - MG</p>
+        </div>
 
         <!-- NAV: Navegação da Landing Page -->
         <nav>
@@ -23,7 +31,11 @@
                 <li><a href="#formacao">Formação Acadêmica</a></li>
                 <li><a href="#experiencia">Experiência</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos & Portfólio</a></li>
+                <li><a href="#idiomas">Idiomas</a></li>
+                <li><a href="#cursos">Cursos e Certificações</a></li>
+                <li><a href="#iniciacao">Iniciação Científica</a></li>
+                <li><a href="#extracurriculares">Extracurriculares</a></li>
+                <li><a href="#portfolio">Projetos & Portfólio</a></li>
             </ul>
         </nav>
 
@@ -37,8 +49,13 @@
     <main>
         <section id="sobre">
             <h2>Sobre Mim</h2>
-            <p>Estudante do 4º período de Sistemas de Informação no IFSULDEMINAS - Campus Machado, com forte perfil acadêmico e prático. Atualmente atuo como pesquisador bolsista em P&D (Embrapii/Sebrae) com foco em Qualidade de Software (QA) e desenvolvimento web (React e Django), além de conduzir pesquisa científica voltada ao desempenho de algoritmos de <em>pathfinding</em>. Busco oportunidades para aplicar meus conhecimentos em arquitetura de sistemas e resolução de problemas estruturais em projetos de tecnologia inovadores.</p>
-            
+            <p>Estudante do 4º período de Sistemas de Informação no IFSULDEMINAS - Campus Machado, com forte perfil
+                acadêmico e prático. Atualmente atuo como pesquisador bolsista em P&D (Embrapii/Sebrae) com foco em
+                Qualidade de Software (QA) e desenvolvimento web (React e Django), além de conduzir pesquisa científica
+                voltada ao desempenho de algoritmos de <em>pathfinding</em>. Busco oportunidades para aplicar meus
+                conhecimentos em arquitetura de sistemas e resolução de problemas estruturais em projetos de tecnologia
+                inovadores.</p>
+
         </section>
         <section id="formacao">
             <h2>Formação Acadêmica</h2>
@@ -54,7 +71,7 @@
 
             <div class="experiencia-item">
                 <h3>Bolsista em Pesquisa de P&D (Embrapii/Sebrae)</h3>
-                <p><strong>Período:</strong> [Maio/2026] - Atual</p>
+                <p><strong>Período:</strong> Maio/2026 - Atual</p>
 
                 <p>Atuação no projeto "Smart Coffee Flow", um sistema focado na rastreabilidade da cadeia produtiva do
                     café, desenvolvido utilizando <strong>React</strong> no front-end e <strong>Django</strong> no
@@ -71,10 +88,137 @@
             </div>
         </section>
 
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+
+            <div class="habilidades-categoria">
+                <h3>Frameworks e Bibliotecas</h3>
+                <ul>
+                    <li><strong>React:</strong> Nível Básico (Utilizado ativamente no front-end do projeto Smart Coffee
+                        Flow)</li>
+                    <li><strong>Django:</strong> Nível Básico (Utilizado na estruturação do back-end em P&D)</li>
+                </ul>
+            </div>
+
+            <div class="habilidades-categoria">
+                <h3>Linguagens de Programação</h3>
+                <ul>
+                    <li><strong>Java:</strong> Intermediário</li>
+                    <li><strong>Python:</strong> Intermediário</li>
+                    <li><strong>JavaScript:</strong> Intermediário</li>
+                    <li><strong>C#:</strong> Básico</li>
+                    <li><strong>C:</strong> Básico</li>
+                </ul>
+            </div>
+
+            <div class="habilidades-categoria">
+                <h3>Banco de Dados</h3>
+                <ul>
+                    <li><strong>SQL:</strong> Intermediário</li>
+                    <li><strong>MySQL:</strong> Intermediário</li>
+                </ul>
+            </div>
+
+            <div class="habilidades-categoria">
+                <h3>Ferramentas e Outros</h3>
+                <ul>
+                    <li><strong>Git/GitHub:</strong> Intermediário</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="idiomas">
+            <h2>Idiomas</h2>
+            <ul>
+                <li><strong>Português:</strong> Nativo</li>
+                <li><strong>Inglês:</strong> Intermediário</li>
+            </ul>
+        </section>
+
+        <section id="cursos">
+            <h2>Cursos e Certificações</h2>
+            <ul>
+                <li><strong>Estrutura de Dados com Java</strong> - Loiane Treinamentos, 2026</li>
+                <li><strong>Introdução à Lógica de Programação</strong> - Udemy, 2025</li>
+                <li><strong>Introdução ao C#</strong> - Microsoft, 2025</li>
+            </ul>
+        </section>
+
+        <section id="iniciacao">
+            <h2>Iniciação Científica e Publicações</h2>
+
+            <div class="iniciacao-item">
+                <h3>Projeto de Pesquisa: Análise Comparativa de Algoritmos de Pathfinding</h3>
+                <p><strong>Descrição:</strong> Pesquisa científica focada em aferir o tempo de execução e o consumo de
+                    memória RAM de algoritmos de busca de caminho (Busca em Profundidade, Busca em Largura, Dijkstra e
+                    A*). O estudo avalia as implementações nas linguagens C, Java, Python e Elixir utilizando labirintos
+                    complexos de até 1024x1024. O objetivo é guiar desenvolvedores na escolha da linguagem ideal com
+                    base no trade-off de eficiência computacional.</p>
+                <p><strong>Status:</strong> Em desenvolvimento e com artigo submetido.</p>
+
+                <h4>Publicações Relacionadas:</h4>
+                <br>
+                <ul>
+                    <li><strong>Artigo (Aguardando Aceite):</strong> "ANÁLISE COMPARATIVA DE ALGORITMOS DE PATHFINDING:
+                        o impacto de paradigmas de programação e topologias espaciais" – submetido para a Jornada
+                        Científica IFSULDEMINAS (JOSIF).</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="extracurriculares">
+            <h2>Atividades Extracurriculares e Competições</h2>
+            <ul>
+                <li>
+                    <strong>Monitoria Acadêmica Voluntária</strong> - Disciplinas: Linguagens e Técnicas de Programação
+                    I e Estrutura de Dados I.
+                </li>
+                <li>
+                    <strong>Olimpíada Interna de Programação (Olip)</strong> - Participação nas edições de 2025 e 2026.
+                </li>
+                <li>
+                    <strong>International Collegiate Programming Contest (ICPC)</strong> - Participação na edição de
+                    2025.
+                </li>
+            </ul>
+            <p>Experiência prática em programação competitiva, com foco na resolução de problemas algorítmicos
+                complexos, otimização de tempo de execução e estrutura de dados, utilizando majoritariamente a linguagem
+                Python. Além disso, possuo experiência no apoio docente e mentoria de alunos na fixação de disciplinas
+                base da computação.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfólio e Projetos</h2>
+            <p>
+                <a href="https://github.com/gustavo-gml" target="_blank">Acessar meu GitHub (github.com/gustavo-gml)</a>
+            </p>
+
+            <p><strong>Projetos em Destaque:</strong></p>
+            <ul>
+                <li>
+                    <strong>Site Computer Day:</strong> Desenvolvido para o evento do IFSULDEMINAS.
+                    <br><a href="https://github.com/gustavo-gml/computer_day_2026" target="_blank">Ver Repositório</a>
+                </li>
+                <li>
+                    <strong>Gerador de Labirintos:</strong> Ferramenta utilizada na Iniciação Científica.
+                    <br><a href="https://github.com/gustavo-gml/gerador_de_labirintos" target="_blank">Ver
+                        Repositório</a>
+                </li>
+                <li>
+                    <strong>Controle de Biblioteca Pessoal:</strong> Interface desenvolvida com C# e Windows Forms.
+                    <br><a href="https://github.com/gustavo-gml/Biblioteca-Pessoal-Forms" target="_blank">Ver
+                        Repositório</a>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Gustavo Martins de Lima. Todos os direitos reservados.</p>
+            <p><a href="#top">Voltar ao topo</a></p>
+        </footer>
+
     </main>
-
-
-
+    <script src="scripts/nav.js"></script>
 </body>
 
 </html>
